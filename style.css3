@@ -1,0 +1,101 @@
+l('httpss.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap://font');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:'poppins' , sans-serif;
+    background: #e9edf2;
+    color: #333;
+    line-height: 1.6;
+}
+img{
+    border:solid 1px;
+    width:100px;
+    height100px;
+    border-raduis:50%.
+    box-shadow:10px 10px 10px # brown;
+}
+img{
+    cursor:pointer;
+    transition:transform 0.3s ease;
+}
+img:hover{
+    transform:scale(1.05);
+}
+header{
+    text-align:center;
+    border:solid 1px;
+    background:#782221;
+    color:#dbc2a4.
+}
+header h1 h2{
+    padding-bottom:10px;
+}
+.contact{
+    display:inline-flex;
+    justify-content:space-between;
+    background:#2c1d27 ;
+    width: 1130px;
+}
+.contact p{
+    margin:100px;
+    color:#dbc2a4;
+}
+.padroite{
+    margin-left:400px;
+    margin-top:-390px;
+    border-right:2px solid;
+}
+.pagauche{
+    color:#333;
+    margin-left: 60px;
+
+}
+.pagauge p{
+    text-indent:50px;
+}
+.pagauche .padroite, h2{
+    color: #000;
+}
+.padroite h2{
+    padding: 10px;
+    transition:border-right 0.3s ease;
+}
+.padroite h2:hover{
+border-right:4px solid #7a1f17; /*bordeau */
+}
+/*création d'un trait bordeau*/
+.padroite h2::after{
+    content:"";
+    position absolute;
+    right:0;
+    top:0;
+    background-color:#0800020;
+    transition height: 0.3s ease;
+}
+/*Apparition trait au survol*/
+.padroite h2::hover::after{
+    height:100%;
+}
+.contact a{
+    text-decoration:none;
+    color:#333;
+    transform: 0.3s ease;
+    color:#dbc2a4;
+}
+/*soulignement au survol*/
+.contact, a:hover{
+    text-decoration:underline;
+    text-decoration-color:#0800020;
+    text-decoration-thickeness:2px;
+    txt-underline-offset:5px;
+}
+footer{
+    display: inline-flex;
+    justify-content: space-between;
+    color:#333;
+    text-align: center;
+    margin: 50px;
+}
